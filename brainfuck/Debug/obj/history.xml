@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103VE -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\brainfuck\cmsis -I..\..\..\workspace\brainfuck\stm_lib\inc -I..\..\..\workspace\brainfuck\cmsis_boot -I..\..\..\workspace -I..\..\..\workspace\brainfuck\stm_lib -I..\..\..\workspace\brainfuck">
+      <target file="stm32f10x_tim.o" lastModified="15d211c97db">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="15d1695d90a"/>
+      </target>
+      <target file="startup_stm32f10x_hd.o" lastModified="15d211c988f">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="15d1d4f4263"/>
+      </target>
+      <target file="stm32f10x_i2c.o" lastModified="15d211c9b4d">
+         <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="15d1695bd59"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="15d211c9860">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="15d16959bd8"/>
+      </target>
+      <target file="stm32f10x_spi.o" lastModified="15d211c9ae7">
+         <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="15d1695c5ca"/>
+      </target>
+      <target file="main.o" lastModified="15d211c998e">
+         <source file="..\..\..\main.c" lastModified="15d2102907c"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="15d211c98e5">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="15d1695a3df"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="15d211c9a4c">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="15d1695cd02"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="15d211c99e8">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="15d16959ba8"/>
+      </target>
+      <target file="SPImem.o" lastModified="15d211c9821">
+         <source file="..\..\..\stm_lib\src\SPImem.c" lastModified="15d211c95d2"/>
+      </target>
+      <target file="misc.o" lastModified="15d211c9a8d">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="15d1695f392"/>
+      </target>
+   </processor>
+</history>

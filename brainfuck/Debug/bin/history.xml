@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=brainfuck.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\brainfuck -TC:\CooCox\CoIDE\configuration\ProgramData\brainfuck/link.ld -g">
+      <target file="brainfuck.elf" lastModified="15d211c9d21">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="15d211c97db"/>
+         <source file="..\obj\SPImem.o" lastModified="15d211c9821"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="15d211c9860"/>
+         <source file="..\obj\startup_stm32f10x_hd.o" lastModified="15d211c988f"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="15d211c98e5"/>
+         <source file="..\obj\main.o" lastModified="15d211c998e"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="15d211c99e8"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="15d211c9a4c"/>
+         <source file="..\obj\misc.o" lastModified="15d211c9a8d"/>
+         <source file="..\obj\stm32f10x_spi.o" lastModified="15d211c9ae7"/>
+         <source file="..\obj\stm32f10x_i2c.o" lastModified="15d211c9b4d"/>
+      </target>
+   </processor>
+</history>
